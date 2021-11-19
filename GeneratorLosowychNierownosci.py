@@ -87,7 +87,7 @@ def clearConsole():
 
 def SprawdzOdpowiedz(poprawna_odpowiedz, odpowiedz):
     if(poprawna_odpowiedz == False):
-        if(odpowiedz in {'0', 'brak rozwiązań', 'False', 'Błędna nierowność'}):
+        if(odpowiedz in {'0', 'brak rozwiązań', 'False', 'Błędna nierowność', 'fałsz', 'zero'}):
             return print("Brawo! Twoja odpowiedź jest poprawna!")
         else:
             return print("Niestety nie była to prawdziwa odpowiedź. \n Odpowiedź to - Brak rozwiązań")
@@ -140,6 +140,7 @@ while len(odpowiedz) == 0 or (odpowiedz.lower() == 'h'):
         print('&  <- oraz')
         print('sqrt(x) <- pierwiastek, gdzie x to liczba')
         print('Eq(x,y) <- równanie, gdzie x i y to cyfry')
+        print('Fałsz   <- jeśli rozwiązanie nie ma odpowiedzi lub jest błędne')
         print()
         print("Zadanie - "+zadanie[0])
         print("Podaj odpowiedź na zadanie -")
