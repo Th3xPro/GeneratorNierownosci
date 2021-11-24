@@ -122,7 +122,6 @@ def KreatorListyOdpowiedzi(odpowiedz):
 clearConsole()
 zadanie = LosowanieZadania()
 print('Twoja zadanie to {}'.format(zadanie[0]))
-print(zadanie[1])
 print("Napisz 'H' żeby wyświetlić znaki pomocnicze")
 print("Podaj odpowiedź na zadanie -")
 odpowiedz = input()
