@@ -1,25 +1,25 @@
 # Spis treści
-* [Generator Nierownosci](#generator-nierownosci)
-* [Krótki opis skryptu](#krotki-opis-skryptu)
-* [Schemat działania](#schemat-dzialania)
-* [Wymagania do działania projektu](#wymagania-do-dzialania-projektu)
+* [Generator Nierownosci](#generator-nierównosci)
+* [Krótki opis skryptu](#krótki-opis-skryptu)
+* [Schemat działania](#schemat-działania)
+* [Wymagania do działania projektu](#wymagania-do-działania-projektu)
 
 <!-- Title: -->
-# Generator Nierownosci
+# Generator Nierównosci
 
 <!-- Labels: -->
   <!-- First row: -->
-## Krótki opis skryptu
+# Krótki opis skryptu
 Skrypt generujący losowe zadania z nierówności. <br>
 Program konsolowy napisany w pythonie, który generuje losowe zadania z działu nierówności.
   <!-- Second row: -->
-## Schemat działania
+# Schemat działania
 <li>Program po stracie podaje wygenerowane losowo zadanie do rozwiązania dla użytkownika. <br>
 <li>Program podaje opcje wpisania literki 'H' w celu wyświetlenia znaków pomocniczych. <br>
 <li>Następnie prosi o wprowadzenie odpowiedzi. <br>
 <li>Program zwraca informacje, że podana odpowiedź jest prawdiłowa lub prawidłowe rozwiązanie jeśli odpowiedź jest błędna. <br>
 
-## Wymagania do działania projektu
+# Wymagania do działania projektu
 - autopep8==1.6.0
 - backports.entry-points-selectable==1.1.1
 - distlib==0.3.3
