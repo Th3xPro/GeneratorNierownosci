@@ -1,3 +1,9 @@
+# Spis treści
+* [Generator Nierownosci](#generator-nierownosci)
+* [Krótki opis skryptu](#krotki-opis-skryptu)
+* [Schemat działania](#schemat-dzialania)
+* [Wymagania do działania projektu](#wymagania-do-dzialania-projektu)
+
 <!-- Title: -->
 # Generator Nierownosci
 
